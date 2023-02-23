@@ -1,0 +1,14 @@
+Hexadecimal to Binary, without converting to Decimal:
+(7FA28)₁₆ = ( ? )₂
+
+7	0111
+F	1111
+A	1010
+2	0010
+8	1000
+
+To Convert Letters to binary
+
+Convert it to base of 10 
+Which means F = 15
+Do binary
