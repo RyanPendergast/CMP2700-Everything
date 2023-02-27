@@ -1,2 +1,31 @@
 Use the booth algorithm to multiply 23 (multiplicand) by 29 (multiplier), where each number is represented using 6 bits.
 
+A: Accumulator -   0 - 000000
+Q: Multipler -    29 - 011101
+M: Multiplicand - 23 - 001011
+Extend Q
+A: Accumulator -   0 - 000000
+Q: Multipler -    29 - 0011101
+M: Multiplicand - 23 - 001011
+Iteration 1 - Subtract M from A 
+A: Accumulator -   0 - 000000 - 000000 = 000000
+Q: Multipler -    29 - 0001110
+M: Multiplicand - 23 - 001011
+Iteration 2 - Add M to A
+A: Accumulator -   0 - 000000 + 001011 = 001011
+Q: Multipler -    29 - 0000111
+M: Multiplicand - 23 - 001011
+Iteration 3 - Shift A and Q to the right
+A: Accumulator -   0 - 000101
+Q: Multipler -    29 - 0000011
+M: Multiplicand - 23 - 001011
+Iteration 4 - Shift A and Q to the right
+A: Accumulator -   0 - 000010
+Q: Multipler -    29 - 0000001
+M: Multiplicand - 23 - 001011
+Step 4: Ignore last bits of Q and read result from A and Q
+A: Accumulator -   0 - 000010
+Q: Multipler -    29 - 000000
+M: Multiplicand - 23 - 001011
+
+Binary result is 000010000110 which equals to 667
