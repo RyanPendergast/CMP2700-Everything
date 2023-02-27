@@ -2,3 +2,23 @@ Express the following numbers in IEEE 32-bit floating-bit formait
 
 -5, -1.5, 1/16
 
+1. -5
+5 in binary is 101
+-5 in binary is 1111101
+Since -5 is negative, sign bit is 1
+11111011 - Normalized 1.1111011 * 2^2
+2 + 127 = 129
+129 in binary is 10000001
+1 10000001 11110110000000000000000
+
+2. -1.5
+0.5 x 2 = 1.0 (integer bit is 1, fractional part is 0)
+1.0 x 2 = 0.0 (integer bit is 0, fractional part is 0)
+1.5 in binary is 1.1
+- 1.5 in binary is 1.1011
+Since -1.5 is negative, sign bit is 1
+1.1011 - Normalized 1.1011 * 2^0
+0 + 127 = 127
+127 in binary is 01111111
+1 01111111 10110000000000000000000
+
