@@ -1,9 +1,34 @@
-Find the following differences using twos complement arithmetic:
+Find the Following Differences using two complement arithmetic
  111000
 -110011
 
-Find the following differences using twos complement arithmetic:
+110011
+001100
+001101 + Add 1
+
+111000 + Add 1
+001101
+
+1000101
+0111010 - Two compliment
+0111011 - Add 1
+
+-59
+
+Find the Following Differences using two complement arithmetic
  11001100
 -101110
+
+101110
+010001 - Invert
+010010 - Add One
+
+11001100
+00010010
+
+111111110
+00000110
+
+-6
 
 
