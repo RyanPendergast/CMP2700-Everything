@@ -1,5 +1,21 @@
 The following numbers use the IEEE 32-bit floating point format. What is the equivlant decimal value.
 
 0 01111110 10100000000000000000000
+Sign - 0 - Positive
+02^7 + 12^6 + 12^5 + 12^4 + 12^3 + 12^2 + 12^1 + 02^0 = 01111110
+01111110 - 126
+126 - 127 = -1
+10100000000000000000000 represents 1.10100000000000000000000 in binary
+Leftmost binary point is 1
+1 + 1/4 + 1/32 = 1.328125
+(-1)^0 * 1.328125 * 2^(-1) = 0.6640625
 
 0 10000000 00000000000000000000000
+Sign - 0 - Positive
+-12^7 + 02^6 + 02^5 + 02^4 + 02^3 + 02^2 + 02^1 + 02^0 = 
+10000000 - 128
+128 - 127 = 1
+00000000000000000000000 represents 0.00000000000000000000000 in binary
+Leftmost binary point is 0
+(-1)^0 * 0 * 2^(1) = 0
+
