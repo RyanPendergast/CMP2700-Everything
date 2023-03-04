@@ -1,34 +1,16 @@
 Find the Following Differences using two complement arithmetic
  111000
 -110011
++1
+ 001101
+ 111000
+ ______
+1-000101
 
-110011
-001100
-001101 + Add 1
+(2(000101)) = 5(10)
 
-111000 + Add 1
-001101
+(0 * 2^6) + (0 * 2^5) + (0 * 2^4) + (1 * 2^3) + (0 * 2^2) + (1 * 2^1) + (0 * 2^0) = 10
 
-1000101
-0111010 - Two compliment
-0111011 - Add 1
 
--59
-
-Find the Following Differences using two complement arithmetic
- 11001100
--101110
-
-101110
-010001 - Invert
-010010 - Add One
-
-11001100
-00010010
-
-111111110
-00000110
-
--6
 
 
